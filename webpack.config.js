@@ -6,9 +6,10 @@ module.exports = {
   entry: path.join(__dirname, "src", "index.js"),
   mode: 'development',
   output: {
-    path:path.resolve(__dirname, "/dist"),
+    path:path.resolve(__dirname, "dist"),
     publicPath:''
   } ,
+
   module: {
     rules: [
       {
